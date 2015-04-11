@@ -119,3 +119,31 @@ h2 {
 .gallery-content {
     margin: 0;   
 }
+.main-footer {
+    /* Box-model */
+     padding: 37px 0;  
+    /* Visual */
+    background-color: #68df68;
+}
+.footer-contacts{
+    /* Box-model */
+    width: 310px;
+    float: left;
+    margin-right: 90px;
+    /* Visual */
+    background-color: yellow;  
+}
+.footer-social {
+    /* Box-model */
+    width: 141px;
+    float: left;
+    /* Visual */
+    background-color: yellow;
+}
+.footer-copyright {
+    /* Box-model */
+    width: 310px;
+    float: right;
+    /* Visual */
+    background-color: yellow;
+}

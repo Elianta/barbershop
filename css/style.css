@@ -1,9 +1,16 @@
 body {
+    min-width: 800px;
+    margin: 0;
+    padding: 0;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
 	font-weight: bold;
 	font-family: PT Sans Narrow;
+}
+header {
+    padding: 0;
+    margin: 0;
 }
 h1 {
 	font-size: 30px;
@@ -20,4 +27,11 @@ h2 {
 	font-weight: bold;
 	font-family: PT Sans Narrow;
 	text-transform: uppercase;
+}
+.main-header {
+    background-color: #68df68; 
+    padding: 5px;
+}
+.container {
+    background-color:white;
 }

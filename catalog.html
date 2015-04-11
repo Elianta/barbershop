@@ -39,55 +39,58 @@
     <!-- End of Header -->
     
     <!-- Main content of page -->
-    <div class="container">
-      <h1>Средства для ухода</h1>
-      <ul class="breadcrumbs">
-        <li>
-          <a href="#">Главная</a>
-        </li>
-        <li>
-          <a href="#">Магазин</a>
-        </li>
-        <li>
-          <a href="#" class="current">Средства для ухода</a>
-        </li>
-      </ul>
+    <div class="container container-breadcrumbs">
+       <div class="page-breadcrumbs">
+        <h1>Средства для ухода</h1>
+        <ul class="breadcrumbs">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#" class="current">Средства для ухода</a>
+          </li>
+        </ul>
+      </div>
       
       <!-- Filter started-->
+      <div class=" clearfix">
       <div class="filter">
         <form action="" method="post" name="filter">
           <div class="manufact">
             <h2>ПРОИЗВОДИТЕЛИ</h2>
             <label>
               <input type="checkbox" name="" id="">Baxter of California
-            </label>
+            </label><br>
             <label>
               <input type="checkbox" name="" id="">Mr Natty
-            </label>
+            </label><br>
             <label>
               <input type="checkbox" name="" id="">Suavecito
-            </label>
+            </label><br>
             <label>
               <input type="checkbox" name="" id="">Malin+Goetz
-            </label>
+            </label><br>
             <label>
               <input type="checkbox" name="" id="">Murray's
-            </label>
+            </label><br>
             <label>
               <input type="checkbox" name="" id="">American Crew
-            </label>
+            </label><br>
           </div>
           <div class="items-group">
             <h2>Группы товаров</h2>
             <label>
               <input type="radio" name="items" id="" value="item-1" checked>Бритвенные принадлежности
-            </label>
+            </label><br>
             <label>
               <input type="radio" name="items" id="" value="item-2">Средства для ухода
-            </label>
+            </label><br>
             <label>
              <input type="radio" name="items" id="" value="item-3">Аксессуары
-            </label>
+            </label><br>
           </div>
           <input type="submit" value="Показать">
         </form>
@@ -97,48 +100,48 @@
       <!-- Description of items in catalog started-->
       <div class="catalog">
       <div class="catalog-content">
-        <article>
-          <a href="#"><img src="img/catalog-item-1.jpg" alt="Набор для путешествий "Baxter of California"" width="220" height="165"></a>
+        <article class="catalog-item">
+          <a href="#"><img src="img/catalog-item-1.jpg" alt="Набор для путешествий 'Baxter of California'" width="220" height="165"></a>
           <a href="#">Набор для путешествий "Baxter of California"</a>
           <div class="buy">
             <span class="price">2900 руб.</span>
             <a href="" class="btn btn-buy">Купить</a>
           </div>
         </article>
-        <article>
-          <a href="#"><img src="img/catalog-item-2.jpg" alt="Увлажняющий кондиционер "Baxter of California"" width="220" height="165"></a>
+        <article class="catalog-item">
+          <a href="#"><img src="img/catalog-item-2.jpg" alt="Увлажняющий кондиционер 'Baxter of California'" width="220" height="165"></a>
           <a href="#">Увлажняющий кондиционер "Baxter of California"</a>
           <div class="buy">
             <span class="price">750 руб.</span>
             <a href="" class="btn btn-buy">Купить</a>
           </div>
         </article>
-        <article>
-          <a href="#"><img src="img/catalog-item-3.jpg" alt="Гель для волос "Suavecito"" width="220" height="165"></a>
+        <article class="catalog-item">
+          <a href="#"><img src="img/catalog-item-3.jpg" alt="Гель для волос 'Suavecito'" width="220" height="165"></a>
           <a href="#">Гель для волос "SUAVECITO"</a>
           <div class="buy">
             <span class="price">290 руб.</span>
             <a href="" class="btn btn-buy">Купить</a>
           </div>
         </article>
-        <article>
-          <a href="#"><img src="img/catalog-item-4.jpg" alt="Глина для укладки волос "American Crew"" width="220" height="165"></a>
+        <article class="catalog-item">
+          <a href="#"><img src="img/catalog-item-4.jpg" alt="Глина для укладки волос 'American Crew'" width="220" height="165"></a>
           <a href="#">Глина для укладки волос "American Crew"</a>
           <div class="buy">
             <span class="price">500 руб.</span>
             <a href="" class="btn btn-buy">Купить</a>
           </div>
         </article>
-        <article>
-          <a href="#"><img src="img/catalog-item-5.jpg" alt="Гель для волос "American Crew"" width="220" height="165"></a>
+        <article class="catalog-item">
+          <a href="#"><img src="img/catalog-item-5.jpg" alt="Гель для волос 'American Crew'" width="220" height="165"></a>
           <a href="#">Гель для волос "American Crew"</a>
           <div class="buy">
             <span class="price">300 руб.</span>
             <a href="" class="btn btn-buy">Купить</a>
           </div>
         </article>
-        <article>
-          <a href="#"><img src="img/catalog-item-6.jpg" alt="Набор для бритья "Baxter of California"" width="220" height="165"></a>
+        <article class="catalog-item">
+          <a href="#"><img src="img/catalog-item-6.jpg" alt="Набор для бритья 'Baxter of California'" width="220" height="165"></a>
           <a href="#">Набор для бритья "Baxter of California"</a>
           <div class="buy">
             <span class="price">3900 руб.</span>
@@ -150,7 +153,7 @@
       <!-- Description of items in catalog finished-->
       
       <!-- Pagination block: start -->
-      <div class="pagination">
+      <div class="catalog-pagination">
         <ul>
           <li class="pagination-active">
             <a href="">1</a>
@@ -167,7 +170,8 @@
         </ul>
       </div>
       <!-- Pagination block: finish -->
-
+        
+      </div>
       </div>
     </div>
     
